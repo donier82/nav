@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+}
+body{
+    background-image: url(https://avatars.mds.yandex.net/i?id=629625b46d397cd1c32c22edef8114b5e0c515db-10414552-images-thumbs&ref=rim&n=33&w=375&h=250);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(162, 232, 232);
+   
+}
+header a{   
+    background-color: #e9d3d3;
+}
+header a:hover{
+    transform: scale(1.2);
+}
+nav ul li{
+    float: left;
+    padding: 10px;
+    border: 1px solid rgb(0,0,0)
+}
+nav ul li:hover{
+background-color: #fff;
+
+}
